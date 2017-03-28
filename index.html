@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <form class=userInput>
+  <div class=userInput>
     <div class="form-group">
       <label for="userName">Name</label>
       <input type="text" class="form-control" id="userName" placeholder="Enter name">
@@ -45,10 +45,28 @@
     </fieldset>
     <button type="submit" class="btn btn-primary">Donate!</button>
     <button class="btn btn-primary clearBtn">Clear</button>
-  </form>
-
-  <div class="table">
   </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Dollar Amount (USD)</th>
+        <th>Per Lap/Lump Sum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark Saber</td>
+        <td>mjs1241@aol.com</td>
+        <td>$100</td>
+        <td>Lump Sum</td>
+      </tr>
+    </tbody>
+  </table>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

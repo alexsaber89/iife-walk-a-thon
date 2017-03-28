@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.userInput {
+.userInput, .table {
     width: 50%;
     margin: 0 auto;
 }
