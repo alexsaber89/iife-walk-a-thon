@@ -32,13 +32,13 @@
       <legend>Is this donation a lump sum, or per lap?</legend>
       <div class="form-check">
         <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="optionsRadios" id="lumpSum" value="lumpSum" checked>
+          <input type="radio" class="form-check-input" name="optionsRadios" id="lumpSum" value="Lump Sum" checked>
           Lump Sum
         </label>
       </div>
       <div class="form-check">
         <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="perLap" value="perLap">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="perLap" value="Per Lap">
           Per Lap
         </label>
       </div>
@@ -57,19 +57,13 @@
         <th>Per Lap/Lump Sum</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark Saber</td>
-        <td>mjs1241@aol.com</td>
-        <td>$100</td>
-        <td>Lump Sum</td>
-      </tr>
+    <tbody id="outputTable">
     </tbody>
   </table>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="javascripts/domhandler.js"></script>
+  <script type="text/javascript" src="javascripts/iifeMain.js"></script>
   </body>
 </html>
